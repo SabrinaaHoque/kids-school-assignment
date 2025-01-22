@@ -75,6 +75,55 @@
     padding:10px 12px;
     margin-top: 10px;
   }
+.first-sec-heading{
+    text-align: center;
+}
+  .containers{
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+  .container{
+    text-align: center;
+    width: 350px;
+    height: 450px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    border-radius:12px;
+    padding: 15px;
+   
+}
+ 
+
+  
+  .container-one{
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+   
+
+  }
+  .container-two{
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+  }
+   
+  .container-three{
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+   
+
+  }
+  .btn-1{
+    color:#64C8FF;
+    border: none;
+    background-color: none;
+  }
+  .btn-2{
+    color:#F0AA00;
+    border: none;
+    background-color: none;
+  }
+  .btn-3{
+    color: #8700FF;
+    border: none;
+    background-color: none;
+  }
 
 
   @media screen and (max-width: 576px){
@@ -113,6 +162,10 @@
     }
     .paragrp{
         font-size: 0.7rem;
+    }
+    .containers{
+       flex-direction: column;
+       align-items: center;
     }
 
   }
